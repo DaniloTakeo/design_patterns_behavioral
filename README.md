@@ -6,7 +6,7 @@ Este repositório contém implementações práticas dos principais **Design Pat
 
 ## 🧠 O que são Design Patterns?
 
-Design Patterns (Padrões de Projeto) são soluções reutilizáveis para problemas comuns encontrados durante o desenvolvimento de software. Os padrões criacionais são responsáveis por abstrair o processo de **criação de objetos**, tornando o sistema mais flexível e desacoplado.
+Design Patterns (Padrões de Projeto) são soluções reutilizáveis para problemas comuns encontrados durante o desenvolvimento de software. Os padrões criacionais são responsáveis por abstrair o processo de **interação entre os objetos** do sistema, tornando o sistema mais flexível e desacoplado.
 
 ---
 
