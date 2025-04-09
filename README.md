@@ -19,8 +19,7 @@ O padrão **Strategy** permite definir uma família de algoritmos, encapsulá-lo
 **Cenário implementado:**
 - **Calculadora de frete**: diferentes estratégias para calcular o custo de frete com base no tipo de entrega (normal, expressa, econômica).
 
-📂 Local:  
-strategy/
+📂 Local:  strategy/
 
 ---
 
@@ -34,8 +33,7 @@ O padrão **Chain of Responsibility** permite que objetos formem uma cadeia para
   
 - **Validação de Cadastro de Usuário**: validação encadeada de campos (nome, e-mail e senha) antes de cadastrar um novo usuário.
 
-📂 Local:
-chain_of_responsibility
+📂 Local: chain_of_responsibility/
 
 ---
 
