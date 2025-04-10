@@ -51,6 +51,8 @@ Flexibilidade para adicionar novos dispositivos sem alterar os comandos existent
 
 O padrão é ideal para sistemas que precisam de fila de tarefas, macros, agendamento, log ou desfazer/redo.
 
+📂 Local:  command/
+
 ---
 
 ## 🚀 Como executar
