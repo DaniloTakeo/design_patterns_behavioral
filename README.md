@@ -46,14 +46,6 @@ O padrão **Command** serve para ncapsular uma solicitação como um objeto, per
 - **Controle remoto universal**
 No exemplo, criamos um controle remoto que aceita comandos genéricos para dispositivos como Luz, TV e Ventilador.
 
-Para evitar duplicação, todos os dispositivos implementam a interface Comandavel com os métodos ligar() e desligar(). Com isso, temos dois comandos reutilizáveis:
-
-ComandoLigar
-
-ComandoDesligar
-
-Isso permite configurar qualquer botão do controle remoto com esses comandos genéricos, desde que o dispositivo implementado saiba como ligar/desligar.
-
 ### 📝 Destaques
 Flexibilidade para adicionar novos dispositivos sem alterar os comandos existentes.
 
