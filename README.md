@@ -55,6 +55,30 @@ O padrão é ideal para sistemas que precisam de fila de tarefas, macros, agenda
 
 ---
 
+### 4. Interpreter
+
+**Intenção:** Fornecer uma forma de avaliar sentenças de uma linguagem. Esse padrão é útil para interpretar expressões simples com uma gramática bem definida.
+
+#### 📌 Exemplo 1: Avaliador de expressões matemáticas simples
+
+Neste exemplo, foi criada uma estrutura para interpretar operações matemáticas básicas como soma e subtração, utilizando uma árvore de expressão.
+
+**Vantagens:**
+- Fácil extensão (ex: multiplicação, divisão).
+- Estrutura de objetos que representa a gramática da linguagem.
+
+#### 📌 Exemplo 2: Validador de permissões com operadores booleanos
+
+Neste cenário, modelamos regras de permissão como uma mini linguagem com operadores lógicos `AND` e `OR`, capaz de avaliar se um usuário possui as permissões necessárias com base em um contexto.
+
+**Vantagens:**
+- Aplicável em controle de acesso baseado em regras (RBAC).
+- Permite montar árvores lógicas reutilizáveis e combináveis.
+
+📂 Local:  interpreter/
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
