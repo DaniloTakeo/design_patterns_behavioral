@@ -79,6 +79,26 @@ Neste cenário, modelamos regras de permissão como uma mini linguagem com opera
 
 ---
 
+### 5. Iterator
+
+**Intenção:** Fornecer uma maneira de acessar sequencialmente os elementos de um objeto agregado sem expor sua representação subjacente.
+
+---
+
+#### 📌 Exemplo 1: Playlist de Músicas
+
+Neste exemplo, criamos uma `Playlist` que armazena várias `Musica`. Um `PlaylistIterator` é utilizado para percorrer as músicas da lista de forma encapsulada, permitindo futuras mudanças na estrutura interna da playlist sem afetar o código cliente.
+
+#### 📌 Exemplo 2: Relatório de Funcionários
+
+Neste cenário, modelamos uma `Empresa` que possui uma lista de `Funcionario`, e queremos gerar relatórios iterando sobre os dados sem depender da implementação da lista. O `EmpresaIterator` cuida da iteração de forma encapsulada.
+
+**Vantagens:**
+- Ideal para sistemas que exportam dados ou navegam por objetos complexos.
+- A lógica de iteração fica reutilizável e flexível.
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
