@@ -99,6 +99,30 @@ Neste cenário, modelamos uma `Empresa` que possui uma lista de `Funcionario`, e
 
 ---
 
+### 6. Mediator
+
+**Intenção:** Centralizar a comunicação entre objetos relacionados, promovendo o desacoplamento entre eles. Em vez de objetos se referirem diretamente, eles interagem por meio de um objeto mediador.
+
+#### 📌 Exemplo 1: Chat entre usuários
+
+Neste exemplo, usuários enviam mensagens uns para os outros através de um `ChatMediator`, que centraliza o envio e distribuição das mensagens. Nenhum usuário conhece diretamente os outros usuários.
+
+**Vantagens:**
+- Reduz o acoplamento entre objetos.
+- Facilita a manutenção e escalabilidade da comunicação.
+
+#### 📌 Exemplo 2: Torre de Controle de Aeroporto
+
+Neste cenário, aeronaves se comunicam exclusivamente com uma `TorreControle`, solicitando autorização para decolagem. A torre atua como um mediador, coordenando a operação entre diversas aeronaves.
+
+**Vantagens:**
+- Simplifica a lógica de coordenação entre múltiplos objetos.
+- Representa bem situações em que há um ponto central de decisão e controle.
+
+📂 Local:  mediator/
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
