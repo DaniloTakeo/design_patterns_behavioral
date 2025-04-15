@@ -123,6 +123,32 @@ Neste cenário, aeronaves se comunicam exclusivamente com uma `TorreControle`, s
 
 ---
 
+### 7. Memento
+
+**Intenção:** Capturar e armazenar o estado interno de um objeto para que ele possa ser restaurado posteriormente, sem violar o encapsulamento.
+
+---
+
+#### 📌 Exemplo 1: Editor de Texto com Desfazer (Undo)
+
+Neste exemplo, o usuário pode digitar textos e desfazer alterações. Cada alteração é armazenada como um `Memento` que guarda o estado anterior do texto, permitindo restaurar versões anteriores.
+
+**Vantagens:**
+- Permite desfazer mudanças sem expor a estrutura interna do objeto.
+- Ideal para funcionalidades de histórico.
+
+#### 📌 Exemplo 2: Jogo de RPG com Salvamento de Progresso
+
+Neste cenário, o jogador pode lutar, ganhar experiência, perder vida e salvar seu progresso. O progresso é armazenado e pode ser restaurado a qualquer momento, voltando ao estado anterior.
+
+**Vantagens:**
+- Útil para jogos, sistemas com checkpoints ou onde há necessidade de desfazer ações.
+- Mantém encapsulamento do objeto original.
+
+📂 Local:  memento/
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
