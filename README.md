@@ -127,8 +127,6 @@ Neste cenário, aeronaves se comunicam exclusivamente com uma `TorreControle`, s
 
 **Intenção:** Capturar e armazenar o estado interno de um objeto para que ele possa ser restaurado posteriormente, sem violar o encapsulamento.
 
----
-
 #### 📌 Exemplo 1: Editor de Texto com Desfazer (Undo)
 
 Neste exemplo, o usuário pode digitar textos e desfazer alterações. Cada alteração é armazenada como um `Memento` que guarda o estado anterior do texto, permitindo restaurar versões anteriores.
