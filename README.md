@@ -147,6 +147,28 @@ Neste cenário, o jogador pode lutar, ganhar experiência, perder vida e salvar 
 
 ---
 
+### 8. Observer
+
+**Intenção:** Permitir que múltiplos objetos observem e reajam automaticamente sempre que outro objeto (o *sujeito*) muda de estado. Esse padrão promove o baixo acoplamento entre o sujeito e os seus observadores.
+
+#### 📌 Exemplo 1: Sistema de Notícias com Assinantes
+
+Neste cenário, um canal de notícias notifica automaticamente todos os assinantes cadastrados sempre que uma nova notícia é publicada.
+
+**Vantagens:**
+- Permite notificações automáticas a múltiplos observadores.
+- Reduz o acoplamento entre o objeto observado e os objetos dependentes.
+
+#### 📌 Exemplo 2: Sistema de Monitoramento de Temperatura
+
+Neste exemplo, um sensor de temperatura informa mudanças de estado aos seus observadores, como um ar-condicionado e um painel de controle. Os observadores reagem automaticamente de acordo com a temperatura.
+
+**Vantagens:**
+- Ideal para sistemas embarcados e IoT.
+- Permite múltiplos tipos de resposta a um mesmo evento de forma desacoplada.
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
