@@ -167,6 +167,8 @@ Neste exemplo, um sensor de temperatura informa mudanças de estado aos seus obs
 - Ideal para sistemas embarcados e IoT.
 - Permite múltiplos tipos de resposta a um mesmo evento de forma desacoplada.
 
+📂 Local:  observer/
+
 ---
 
 ## 🚀 Como executar
