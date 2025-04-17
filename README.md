@@ -171,7 +171,7 @@ Neste exemplo, um sensor de temperatura informa mudanças de estado aos seus obs
 
 ---
 
-### 8. State
+### 9. State
 
 #### 📌 Exemplo 1: Impressora  
   Modela os estados de uma impressora (Pronta, Imprimindo, Sem Papel), alterando seu comportamento conforme o estado atual.
