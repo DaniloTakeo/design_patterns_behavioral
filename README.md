@@ -171,6 +171,18 @@ Neste exemplo, um sensor de temperatura informa mudanças de estado aos seus obs
 
 ---
 
+### 8. State
+
+#### 📌 Exemplo 1: Impressora  
+  Modela os estados de uma impressora (Pronta, Imprimindo, Sem Papel), alterando seu comportamento conforme o estado atual.
+
+#### 📌 Exemplo 2: Editor de texto  
+  Representa os modos de operação do editor (Inserção, Seleção, Edição), onde cada modo define diferentes respostas às ações de clicar e digitar.
+
+📂 Local:  state/
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
