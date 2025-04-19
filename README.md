@@ -183,6 +183,18 @@ Neste exemplo, um sensor de temperatura informa mudanças de estado aos seus obs
 
 ---
 
+### 10. Template Method
+
+#### 📌 Exemplo 1: Preparo de Bebidas  
+  O método `preparar()` define o esqueleto do processo de preparação de bebidas, enquanto as subclasses (`Cha` e `Cafe`) implementam os detalhes de cada bebida, como a adição dos ingredientes.
+
+#### 📌 Exemplo 2: Geração de Relatórios  
+  O método `gerarRelatorio()` define a estrutura do relatório (cabeçalho, corpo e rodapé), enquanto as subclasses (`RelatorioFinanceiro` e `RelatorioVendas`) implementam os detalhes específicos de cada tipo de relatório.
+
+📂 Local:  template_method
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
