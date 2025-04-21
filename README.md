@@ -195,6 +195,43 @@ Neste exemplo, um sensor de temperatura informa mudanças de estado aos seus obs
 
 ---
 
+### 11. Visitor
+
+O padrão Visitor permite definir novas operações em uma estrutura de objetos sem alterar as classes dos elementos sobre os quais opera. Ele separa o algoritmo dos objetos em que ele atua, promovendo maior coesão e facilitando a extensão de comportamentos.
+
+#### 🧠 Intenção
+
+Permitir que novas operações sejam definidas sem mudar as classes dos elementos sobre os quais opera.
+
+---
+
+### 📌 Exemplos
+
+#### 1. Operações sobre dispositivos
+
+Simulamos a execução de operações em diferentes tipos de dispositivos (Mouse, Teclado, Monitor, Computador) com um `Visitor` que imprime a estrutura e interage com cada um deles.
+
+- **Objetivo:** Separar a lógica de acesso e interação com os componentes de hardware.
+- **Resultado:** A lógica de visitação fica desacoplada da estrutura dos elementos, facilitando a adição de novos comportamentos.
+
+#### 2. Interpretação de expressões matemáticas
+
+Criamos uma árvore de expressões composta por valores, somas e multiplicações. Dois visitantes percorrem a árvore:
+
+- `AvaliadorVisitor`: calcula o valor final da expressão.
+- `InfixoVisitor`: gera a notação infixa da expressão.
+
+Exemplo da expressão:
+
+```text
+(5 + 3) * 2
+```
+
+- **Objetivo:** Demonstrar o uso do Visitor em estruturas recursivas com múltiplas possibilidades de operação (avaliar, imprimir, validar).
+- **Resultado:** Fácil extensão de funcionalidades sem alterar as classes de expressão.
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositório:
