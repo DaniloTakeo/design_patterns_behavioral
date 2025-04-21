@@ -203,9 +203,7 @@ O padrão Visitor permite definir novas operações em uma estrutura de objetos 
 
 Permitir que novas operações sejam definidas sem mudar as classes dos elementos sobre os quais opera.
 
----
-
-### 📌 Exemplos
+#### 📌 Exemplos
 
 #### 1. Operações sobre dispositivos
 
@@ -229,6 +227,8 @@ Exemplo da expressão:
 
 - **Objetivo:** Demonstrar o uso do Visitor em estruturas recursivas com múltiplas possibilidades de operação (avaliar, imprimir, validar).
 - **Resultado:** Fácil extensão de funcionalidades sem alterar as classes de expressão.
+
+📂 Local:  visitor/
 
 ---
 
